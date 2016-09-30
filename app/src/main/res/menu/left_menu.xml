@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/menu_sate_khon_arr"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/menu_motivator"
+        android:checked="true"
+        />
+    <item
+        android:id="@+id/menu_short_jokes"
+        android:icon="@drawable/ic_insert_emoticon_black_24dp"
+        android:title="@string/menu_short_jokes"/>
+    <item
+        android:id="@+id/menu_quiz"
+        android:icon="@drawable/ic_assignment_ind_black_24dp"
+        android:title="Pop Qiz"/>
+    <item
+        android:id="@+id/menu_health_topics"
+        android:icon="@drawable/ic_supervisor_account_black_24dp"
+        android:title="@string/menu_health_topics"/>
+</group>
+</menu>
